@@ -42,13 +42,7 @@ const Footer = () => {
               >
                 <Instagram size={24} />
               </Link>
-              <Link
-                href="https://tiktok.com"
-                className="text-white hover:text-gold transition-colors"
-                target="_blank"
-              >
-                <TikTokIcon size={22} />
-              </Link>
+
               <Link
                 href="https://youtube.com"
                 className="text-white hover:text-gold transition-colors"
@@ -89,7 +83,10 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="#faq" className="hover:text-white transition-colors">
+                <Link
+                  href="#faq"
+                  className="hover:text-white transition-colors"
+                >
                   Preguntas Frecuentes
                 </Link>
               </li>
